@@ -1,0 +1,38 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Project data/results (keep code clean, avoid large binaries)
+SWING-main/Data/
+SWING-main/Results/
+Data/
+Results/
+
+# Swap files
+*.swp
