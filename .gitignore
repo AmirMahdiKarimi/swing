@@ -29,10 +29,10 @@ venv/
 .idea/
 
 # Project data/results (keep code clean, avoid large binaries)
-SWING-main/Data/
-SWING-main/Results/
-Data/
-Results/
+# SWING-main/Data/
+# SWING-main/Results/
+# Data/
+# Results/
 
 # Swap files
 *.swp
