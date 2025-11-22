@@ -33,6 +33,7 @@ venv/
 # SWING-main/Results/
 # Data/
 # Results/
+output/output*
 
 # Swap files
 *.swp
