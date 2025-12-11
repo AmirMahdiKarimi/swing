@@ -37,3 +37,5 @@ output/output*
 
 # Swap files
 *.swp
+# Ignore large cache files produced locally
+SWING-main/SWING-main/Data/*.pkl

@@ -1,0 +1,14 @@
+{
+  "model_name": "XGBoost",
+  "dataset": "ClassI_training_210",
+  "label_column": "Hit",
+  "sequence_column": "Sequence",
+  "test_size": 0.5,
+  "random_state": 42,
+  "feature_set": "aa20_counts+freq+length+kmer3+physchem+aaindex+mhc+anchor",
+  "artifacts": {
+    "model_path": "SWING-main/SWING-main/Results/ClassI_XGB_mhc_anchor_k3_noos\\model_XGBoost.joblib",
+    "predictions_path": "SWING-main/SWING-main/Results/ClassI_XGB_mhc_anchor_k3_noos\\predictions_XGBoost_ClassI_training_210.csv",
+    "metrics_path": "SWING-main/SWING-main/Results/ClassI_XGB_mhc_anchor_k3_noos\\metrics_XGBoost_ClassI_training_210.json"
+  }
+}

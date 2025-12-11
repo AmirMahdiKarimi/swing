@@ -1,0 +1,26 @@
+{
+  "auc": 0.9182172144738819,
+  "avg_precision": 0.6132448090416831,
+  "f1": 0.5655047298172865,
+  "precision": 0.59978009895547,
+  "recall": 0.5349350330963472,
+  "accuracy": 0.926042746542559,
+  "balanced_accuracy": 0.7498224537724695,
+  "threshold_used": 0.5,
+  "confusion_matrix": {
+    "tn": 39802,
+    "fp": 1456,
+    "fn": 1897,
+    "tp": 2182
+  },
+  "best_threshold_f1": 0.41000000000000003,
+  "f1_best": 0.5774647887323944,
+  "accuracy_at_best_f1": 0.9192712354147826,
+  "best_threshold_accuracy": 0.65,
+  "accuracy_best": 0.9311379226680195,
+  "f1_at_best_accuracy": 0.5134039900249376,
+  "model_name": "LightGBM",
+  "dataset": "ClassI_training_210",
+  "label_column": "Hit",
+  "sequence_column": "Epitope"
+}

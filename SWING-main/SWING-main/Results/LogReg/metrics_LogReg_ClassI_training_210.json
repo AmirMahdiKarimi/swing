@@ -1,0 +1,26 @@
+{
+  "auc": 0.9006287974983769,
+  "avg_precision": 0.46816355841200735,
+  "f1": 0.4648300936931898,
+  "precision": 0.32514917343245625,
+  "recall": 0.8149056141211081,
+  "accuracy": 0.8311754196351766,
+  "balanced_accuracy": 0.8238447795265,
+  "threshold_used": 0.5,
+  "confusion_matrix": {
+    "tn": 34359,
+    "fp": 6899,
+    "fn": 755,
+    "tp": 3324
+  },
+  "best_threshold_f1": 0.77,
+  "f1_best": 0.5095770151636073,
+  "accuracy_at_best_f1": 0.8915675937975605,
+  "best_threshold_accuracy": 0.9500000000000001,
+  "accuracy_best": 0.9170655314643669,
+  "f1_at_best_accuracy": 0.3665768194070081,
+  "model_name": "LogReg",
+  "dataset": "ClassI_training_210",
+  "label_column": "Hit",
+  "sequence_column": "Epitope"
+}

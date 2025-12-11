@@ -1,0 +1,26 @@
+{
+  "auc": 0.9163251924569731,
+  "avg_precision": 0.571258870559657,
+  "f1": 0.5354152128401954,
+  "precision": 0.415572105619499,
+  "recall": 0.7523902917381711,
+  "accuracy": 0.8825242076008558,
+  "balanced_accuracy": 0.8238901383553912,
+  "threshold_used": 0.5,
+  "confusion_matrix": {
+    "tn": 36942,
+    "fp": 4316,
+    "fn": 1010,
+    "tp": 3069
+  },
+  "best_threshold_f1": 0.63,
+  "f1_best": 0.5602923264311814,
+  "accuracy_at_best_f1": 0.9124114961289895,
+  "best_threshold_accuracy": 0.79,
+  "accuracy_best": 0.9266824006881796,
+  "f1_at_best_accuracy": 0.48094940662086194,
+  "model_name": "CatBoost",
+  "dataset": "ClassI_training_210",
+  "label_column": "Hit",
+  "sequence_column": "Epitope"
+}

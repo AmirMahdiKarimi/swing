@@ -1,0 +1,14 @@
+{
+  "model_name": "CatBoost",
+  "dataset": "ClassI_training_210",
+  "label_column": "Hit",
+  "sequence_column": "Sequence",
+  "test_size": 0.5,
+  "random_state": 42,
+  "feature_set": "aa20_counts+freq+length+kmer3+physchem+blosum+anchor+anchor_strict+mhc_raw+mhc_group:two_digit",
+  "artifacts": {
+    "model_path": "Results\\CatBoost\\model_CatBoost.joblib",
+    "predictions_path": "Results\\CatBoost\\predictions_CatBoost_ClassI_training_210.csv",
+    "metrics_path": "Results\\CatBoost\\metrics_CatBoost_ClassI_training_210.json"
+  }
+}

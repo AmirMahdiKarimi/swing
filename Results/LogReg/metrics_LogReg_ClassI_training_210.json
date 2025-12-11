@@ -1,0 +1,26 @@
+{
+  "auc": 0.5401493820996728,
+  "avg_precision": 0.09915995371630242,
+  "f1": 0.16816888995713655,
+  "precision": 0.10050756560045968,
+  "recall": 0.5145869085560186,
+  "accuracy": 0.5419855746961643,
+  "balanced_accuracy": 0.5296406354307555,
+  "threshold_used": 0.5,
+  "confusion_matrix": {
+    "tn": 22473,
+    "fp": 18785,
+    "fn": 1980,
+    "tp": 2099
+  },
+  "best_threshold_f1": 0.48,
+  "f1_best": 0.17030155781049022,
+  "accuracy_at_best_f1": 0.35975031431281296,
+  "best_threshold_accuracy": 0.5700000000000001,
+  "accuracy_best": 0.9100293358625405,
+  "f1_at_best_accuracy": 0.0,
+  "model_name": "LogReg",
+  "dataset": "ClassI_training_210",
+  "label_column": "Hit",
+  "sequence_column": "Sequence"
+}

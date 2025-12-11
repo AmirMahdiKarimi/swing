@@ -1,0 +1,26 @@
+{
+  "auc": 0.903622890208365,
+  "avg_precision": 0.549861667735314,
+  "f1": 0.5109215017064846,
+  "precision": 0.39183352964271695,
+  "recall": 0.7340034322137778,
+  "accuracy": 0.8735690495621677,
+  "balanced_accuracy": 0.8106853653385531,
+  "threshold_used": 0.5,
+  "confusion_matrix": {
+    "tn": 36611,
+    "fp": 4647,
+    "fn": 1085,
+    "tp": 2994
+  },
+  "best_threshold_f1": 0.61,
+  "f1_best": 0.5338101430429129,
+  "accuracy_at_best_f1": 0.9051106160531134,
+  "best_threshold_accuracy": 0.77,
+  "accuracy_best": 0.925336921278426,
+  "f1_at_best_accuracy": 0.4562248995983936,
+  "model_name": "XGBoost",
+  "dataset": "ClassI_training_210",
+  "label_column": "Hit",
+  "sequence_column": "Epitope"
+}

@@ -1,0 +1,14 @@
+{
+  "model_name": "LightGBM",
+  "dataset": "ClassI_training_210",
+  "label_column": "Hit",
+  "sequence_column": "Epitope",
+  "test_size": 0.5,
+  "random_state": 42,
+  "feature_set": "aa20_counts+freq+length+kmer2+physchem+aaindex+protbert+mhc",
+  "artifacts": {
+    "model_path": "Results/LightGBM\\model_LightGBM.joblib",
+    "predictions_path": "Results/LightGBM\\predictions_LightGBM_ClassI_training_210.csv",
+    "metrics_path": "Results/LightGBM\\metrics_LightGBM_ClassI_training_210.json"
+  }
+}

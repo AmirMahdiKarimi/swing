@@ -1,0 +1,14 @@
+{
+  "model_name": "LogReg",
+  "dataset": "ClassI_training_sample",
+  "label_column": "Hit",
+  "sequence_column": "Sequence",
+  "test_size": 0.5,
+  "random_state": 42,
+  "feature_set": "aa20_counts+freq+length+kmer3+physchem+blosum+protbert",
+  "artifacts": {
+    "model_path": "Results\\LogReg\\model_LogReg.joblib",
+    "predictions_path": "Results\\LogReg\\predictions_LogReg_ClassI_training_sample.csv",
+    "metrics_path": "Results\\LogReg\\metrics_LogReg_ClassI_training_sample.json"
+  }
+}
